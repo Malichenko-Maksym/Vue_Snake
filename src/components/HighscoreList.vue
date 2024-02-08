@@ -10,7 +10,7 @@
       </span>
       <span class="highscore-points"> {{ highscore.pts }} Jabłka </span>
       <span v-if="lastPlayedScore && lastPlayedScore.id === highscore.id">
-        [Last]
+        [Ostatnia gra]
       </span>
     </li>
   </ol>
