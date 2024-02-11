@@ -51,7 +51,7 @@ export default {
   data() {
     return {
       directions: ["up", "down", "left", "right"],
-      tileCount: 20,
+      tileCount: 16,
 
       snake: [
         {
